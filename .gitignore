@@ -1,3 +1,15 @@
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+app/jspm_packages
+
+# gradle
+.gradle
+
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output

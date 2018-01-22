@@ -1,0 +1,7 @@
+apply plugin: 'war'
+
+version = '0.0.1'
+
+war {
+  from 'dist'
+}
