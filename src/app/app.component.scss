@@ -17,5 +17,25 @@
 }
 
 mat-sidenav {
-  padding: 10px;
+  padding: 0 0 10px 10px;
+}
+
+a {
+  padding: 6px;
+  color: #999;
+
+  &.icon-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #FAFAFA;
+    }
+
+    &.selected {
+      background-color: #FAFAFA;
+    }
+  }
+
 }
